@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <!--Assuming "Campus Life" and "Achievements" has been completed in Project 69-->
+
+    <nav class="navbar-inverse" style="position: sticky,top:0,z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="https://thane.universalhigh.edu.in/">Universal High School,Thane</a>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul class="nav navbar-nav">
+                <li><a href="#camife">Campus Life</a></li>
+                <li><a href="#achievements">Achievement</a></li>
+                <li><a href="#whew">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="home">
+        <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+            <b>
+                For admissions call us at +912241947744</b>
+        </marquee>
+    </div>
+
+    <center><iframe height="560px" width="900px" src="https://www.youtube.com/embed/MrENV-EZmvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+    <section id="camife">
+        <div class="container">
+            <!--Campus Life-->
+            <div class="page-header" id="campus_life">
+                <h2 class="text-capitalize">Campus Life</h2>
+
+                <div class="row">
+                    <!--1st Campus Life-->
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" col-lg-12 col-md-12 col-sm-12 col-xs-8 src="https://thane.universalhigh.edu.in/wp-content/uploads/2019/10/swimming-pool.jpg">
+                        <h4 class="text-capitalize"><kbd>Swimming Pool</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was established in 2019</h5>
+                        <p class="text-muted text-left">Students are imparted swimming coaching by experienced coaches on a weekly basis.<br><br> The swimming committee ensures the safety of students at all times. Students undergo the swimming programme only after a written consent from the parents.</p>
+                    </div>
+                    <!--2nd Campus Life-->
+                    <div class="travel_mainDiv">
+                        <!--Give appropriate class below for the image img-responsive-->
+                        <img class="img-responsive" col-lg-12 col-md-12 col-sm-12 col-xs-8 src="https://thane.universalhigh.edu.in/wp-content/uploads/2019/09/Football-sports.jpg">
+                        <h4 class="text-capitalize"><kbd>School Multipurpose Ground</kbd></h4>
+                        <hr>
+                        <!--Give classes below text-success text-left-->
+                        <h5 class="text-success text-capitalize">Was built in 2019</h5>
+                        <p class="text-muted text-left">We, at Universal, encourage students to participate in sports activities not only for enjoyment and exercise but for building essential skills. Playing a sport shapes a child in a positive way instilling a sense of self-worth. Students get an opportunity to explore a variety of sports that they wish to pursue, both to excel in or as a hobby.</p>
+
+                    </div>
+                    <!--3rd Campus life-->
+                    <div class="travel_mainDiv">
+                        <img class="img-responsive" col-lg-12 col-md-12 col-sm-12 col-xs-8 src="https://thane.universalhigh.edu.in/wp-content/uploads/2019/10/Rumpus-room-15.jpg">
+                        <!-- Give text-capitalize below to make the first letters in Capitals-->
+                        <h4 class="text-capitalize"><kbd>School Rumpus Room</kbd></h4>
+                        <hr>
+                        <h5 class="text-success text-left text-capitalize">Was built in 2018</h5>
+                        <!-- Give text-muted below to show the text in grey color-->
+                        <p class="text-muted text-left"> The state-of-the-art Rumpus room takes care of the gross motor development of our young learners.<br> <br>The imaginative play equipment encourages children to be creative, explore different roles, characters and make-believe environments.</p>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <section id="achievements">
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize"><br><br><br>Won first prize in inter school debate on environment pollution
+                </h5>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize"><br><br><br>Came second in inter school football competition
+                </h5>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-left text-success text-capitalize"><br><br><br><br>Won second price in inter school Science Project competition
+                </h5>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <div id="footer"></div>
+
+
+
+    <div class="container">
+        <!--What's New-->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whew">
+            <h2 class="text-capitalize ">What's New</h2>
+        </div>
+
+        <ul class="list-group">
+            <!-- Add bootstrap class list-group-item-success for green color BG-->
+            <li class="list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>New School Canteen</h4>
+                <img src="https://live.staticflickr.com/2110/2196260331_c6592e8dab_c.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <!--Add bootstrap class  col-lg-7 col-md-7 col-sm-7 col-xs-12-->
+                <p class="list-group-item-text">The food options and responsibilities to consider, canteens must be better organised and more efficient than they have been in the past. Online menus with photographs of the meals prepared, and detailed descriptions of their ingredients help both students and parents make the right nutritional choices. Each student or staff member who accesses the canteen could be provided with a School Canteen Account on the school website that keeps track of their previous meal choices and any dietary requirements they may have. Ordering online by ticking a box and paying for meals online can eliminate all the fuss of money handling, making it safer and less complicated for staff and students alike. Here again, diversity is the key.</p>
+            </li>
+            <!-- Add bootstrap class list-group-item-warning for red color BG-->
+            <li class="list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Implemented Online Attendance Management System</h4>
+                <!--Add bootstrap class  col-lg-5 col-md-5 col-sm-5 col-xs-12-->
+                <img src="https://5.imimg.com/data5/ZA/SJ/QC/SELLER-7950336/rfid-smart-attendance-for-school-500x500.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12"><b>1. Accuracy</b>
+                    Humans are prone to error, even if we provide them with supporting computational devices. Automated attendance management systems ensure accurate time records and minimize the inevitable and costly errors with manual data entry. This accurate data thereby helps to provide accurate performance and payroll data.
+                    <br>
+                    <b>2. Economics</b>
+                    Have you ever thought that attendance management systems could control costs? It saves money by putting an end to inaccurate time reporting, buddy punching, absenteeism, tardiness, time abuse, and overpayment. As a matter of fact, a study done by the Axsium Group found that large organizations save up to $1,600 per employee after implementing automated attendance management systems.
+                    <br>
+                    <b> 3. Productivity / Efficiency</b>
+                    Monitoring and managing attendance manually can be a time-consuming, laborious, and expensive affair. It takes time to process paper sheets and time cards, create schedules, authorize leave and overtime, and create payroll manually. Free up precious administration time with an automated system that does it all for you, from keeping track of employee hours to automatically importing information into your payroll system. The time and effort saved combined with data accuracy helps in optimizing the use of resources which lead to increased productivity and improves profits. And many more like Visibility / Insights, Hassle Free Workflow Management, Flexibility, Integration / Configuration, Real-time tracking, Security, and Compliance
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <!--Assuming "What's new" has been completed in Project 70-->
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize ">Our Alumni</h2>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+            <img src="https://cdn.siasat.com/wp-content/uploads/2020/01/Parineeti-Chopra-Oct-14.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Parineeti Chopra</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni1">
+            <!-- Give bootstrap class modal-dialog-->
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Parineeti Chopra</h4>
+                    </div>
+                    <!-- Give bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="https://cdn.siasat.com/wp-content/uploads/2020/01/Parineeti-Chopra-Oct-14.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">
+                            Parineeti Chopra is not only a skilled actress but highly qualified too. The actress holds a triple honours degree in Finance, Business, and Economics. <br>
+                            <a href="https://en.wikipedia.org/wiki/Parineeti_Chopra"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+            <img src="https://bsmedia.business-standard.com/_media/bs/img/topic-profile/profile-images/thumb/464_464/1554726790.png" class="img-responsive">
+            <hr>
+            <p class="text-primary">Anurag Thakur</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni2">
+            <!-- Give bootstrap class modal-dialog-->
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Anurag Thakur</h4>
+                    </div>
+                    <!-- Give bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="https://bsmedia.business-standard.com/_media/bs/img/topic-profile/profile-images/thumb/464_464/1554726790.png" class="img-responsive img_modal">
+                        <p class="p_modal">A three-time Member of Parliament from the Hamirpur constituency of Himachal Pradesh and the son of a former chief minister of the state, Anurag Thakur is also the chief of the youth wing of the Bharatiya Janata Party (BJP). <br>
+                            <a href="https://en.wikipedia.org/wiki/Vidya_Balan"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Gautam_Adani.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Gautam Adani</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni3">
+            <!-- Give bootstrap class modal-dialog-->
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Gautam Adani</h4>
+                    </div>
+                    <!-- Give bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Gautam_Adani.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">
+                            Gautam Shantilal Adani is an Indian billionaire industrialist and philanthropist who is the chairman and founder of the Adani Group, an Ahmedabad-based multinational conglomerate involved in port development and operations in India. <br>
+                            <a href="https://en.wikipedia.org/wiki/Parineeti_Chopra"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive">
+            <hr>
+            <p class="text-primary">Rajdeep Sardesai</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni4">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Rajdeep Sardesai</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpskaRUFZIt603-tdSETBPlO7FqIm_PVfzMfORQTR1uWsL98_1&usqp=CAU" class="img-responsive img_modal">
+                        <p class="p_modal">He is an Indian news anchor and author.<br>
+                            <a href="https://en.wikipedia.org/wiki/Rajdeep_Sardesai"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+     <section id="contact">
+
+        <h1>CONTACT US</h1>
+        <br><br><br><br><br><br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15067.295550372166!2d72.9843238!3d19.2465056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe12203a40f444a76!2sUniversal%20High%20School%2C%20Thane!5e0!3m2!1sen!2sin!4v1631342780136!5m2!1sen!2sin" width="600" height="450" style="border:3;" allowfullscreen="" loading="lazy"></iframe>
+        <div id="details">
+            <h3>Principal Name: Ms. Sanjivani Bose</h3>
+            <br>
+            <a href="mailto:info.thane@universal.edu.in">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;info.thane@universal.edu.in</h5>
+            </a>
+            <a href="https://www.instagram.com/universalhighschoolthane/?hl=en">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;@universalhighschoolthane</h5>
+            </a>
+            <a href="#">
+                <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;+91 845 0955 351,
+                    +91 845 0955 352</h5>
+            </a>
+        </div>
+
+    </section>
+    
+    
+    <div id="footer"></div>
+</body></html>
